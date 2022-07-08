@@ -1,0 +1,45 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+
+    padding: min(10vw, 3rem) min(7vw, 2.5rem);
+
+    @media only screen and (min-width: 48em) {
+        &:nth-of-type(1) {
+            grid-column: span 2;
+        }
+    }
+}
+
+.button {
+    border: none;
+    border-radius: 0.25rem;
+    box-shadow: 0 5px 20px 0 rgba(black, 0.2);
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 1rem;
+    padding-block: 1rem;
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    border-radius: 0.5rem;
+    margin: 4rem 1.5rem;
+    overflow: hidden;
+    width: min(100%, 42em);
+
+    @media only screen and (min-width: 48em) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.subscription {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
