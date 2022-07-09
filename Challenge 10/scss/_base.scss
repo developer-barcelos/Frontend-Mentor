@@ -36,7 +36,7 @@ h3 {
 img {
     float: right;
     width: 20%;
-    margin-top: 3rem;
+    margin-top: min(10vw, 5rem);
     max-width: 100%;
 }
 
@@ -49,6 +49,7 @@ span {
     color: var(--clr-neutral-200);
     font-size: var(--fs-300);
     font-weight: var(--fw-regular);
+    line-height: 1.7;
 }
 
 body {
