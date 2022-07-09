@@ -11,4 +11,4 @@
 - Challenge 07 - 3-Column Preview Card Component [[Challenge Link]](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-) | [[Solution Link]](https://regal-palmier-671807.netlify.app/)
 - Challenge 08 - Huddle Landing Page with Single Section [[Challenge Link]](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0) | [[Solution Link]](https://peaceful-brioche-ba248e.netlify.app/)
 - Challenge 09 - Huddle Landing Page with Single Section [[Challenge Link]](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc) | [[Solution Link]](https://brilliant-cranachan-0087a8.netlify.app/)
-- Challenge 10 - Four Card Feature Section [[Challenge Link]](https://www.frontendmentor.io/solutions/four-card-feature-section-solution-fmjrSxCPsP) | [[Solution Link]](https://papaya-nougat-8da62e.netlify.app/)
+- Challenge 10 - Four Card Feature Section [[Challenge Link]](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK) | [[Solution Link]](https://papaya-nougat-8da62e.netlify.app/)
