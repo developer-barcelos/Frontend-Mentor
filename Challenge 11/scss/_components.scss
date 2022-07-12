@@ -1,0 +1,57 @@
+.card {
+    background-color: var(--clr-neutral-100);
+    box-shadow: 0 0 20px 10px rgba(black, 0.1);
+    border-radius: 1rem;
+    overflow: hidden;
+    width: min(100%, 400px);
+
+    &_header {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.5fr 0.9fr 0.75fr;
+
+        .header_pattern {
+            grid-column: 1 / 2;
+            grid-row: 1 / 3;
+            height: 100%;
+            width: 100%;
+        }
+
+        .header_profile {
+            grid-column: 1 / 2;
+            grid-row: 2 / 4;
+            border: 5px solid var(--clr-neutral-100);
+            border-radius: 50%;
+            overflow: hidden;
+        }
+    }
+
+    &_user {
+        padding-block: 1rem 2rem;
+
+        .user_location {
+            font-size: var(--fs-300);
+        }
+    }
+
+    &_footer {
+        border-top: 1px solid rgba(black, 0.1);
+        padding: 1.5rem;
+
+        .stats {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .stat {
+                flex: 1;
+
+                & > p {
+                    font-size: var(--fs-200);
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    }
+}
