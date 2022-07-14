@@ -1,0 +1,28 @@
+.container {
+	display: flex;
+	flex-direction: column;
+
+	width: min(100%, 30em);
+
+	background-color: var(--clr-primary-100);
+	border-radius: 0.5rem;
+	overflow: hidden;
+}
+
+.header {
+	height: 16em;
+	width: min(100%, 30em);
+
+	img {
+		height: 100%;
+		width: 100%;
+
+		object-fit: cover;
+		object-position: top;
+		transform: translateY(-1rem);
+	}
+}
+
+.content {
+	padding: 2rem;
+}
