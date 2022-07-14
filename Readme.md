@@ -13,4 +13,4 @@
 -   Challenge 09 - Huddle Landing Page with Single Section [[Challenge Link]](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc) | [[Solution Link]](https://brilliant-cranachan-0087a8.netlify.app/)
 -   Challenge 10 - Four Card Feature Section [[Challenge Link]](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK) | [[Solution Link]](https://papaya-nougat-8da62e.netlify.app/)
 -   Challenge 11 - Profile Card Component [[Challenge Link]](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ) | [[Solution Link]](https://62cda020a473e636fd102535--benevolent-brioche-4c294b.netlify.app/)
--   Challenge 12 - Social Proof Section [[Challenge Link]](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA) | [[Solution Link]](https://62d05c4c50fcdb0836ac8719--singular-hummingbird-b8caef.netlify.app/)
+-   Challenge 12 - Social Proof Section [[Challenge Link]](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA) | [[Solution Link]](https://singular-hummingbird-b8caef.netlify.app/)
