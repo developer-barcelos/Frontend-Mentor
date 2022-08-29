@@ -1,0 +1,31 @@
+h1 {
+	color: var(--clr-neutral-grey);
+	font-size: var(--fs-header);
+	font-weight: var(--fw-light);
+	margin-bottom: 1rem;
+}
+
+p {
+	color: var(--clr-neutral-blue);
+	font-size: var(--fs-paragraph);
+}
+
+small {
+	color: var(--clr-neutral-grey);
+	font-size: var(--fs-small);
+
+	&[class='invalid'] {
+		color: var(--clr-secondary-red);
+		display: block;
+		padding: 0.25rem 2rem;
+
+		@media only screen and (min-width: 48em) {
+			text-align: left;
+		}
+	}
+}
+
+span {
+	color: var(--clr-neutral-blue);
+	font-weight: var(--fw-bold);
+}
