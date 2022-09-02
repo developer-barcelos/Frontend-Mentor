@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+* {
+	font: inherit;
+}
+
+h1 {
+	margin-bottom: 1.375rem;
+	font-size: var(--fs-header);
+	font-weight: var(--fw-semibold);
+	font-family: var(--ff-secondary);
+
+	@media (max-width: 48em) {
+		margin-bottom: 0.875rem;
+	}
+}
+
+p {
+	margin-bottom: 1.375rem;
+	font-family: var(--ff-primary);
+	font-size: var(--fs-body);
+	font-weight: var(--fw-regular);
+	line-height: 150%;
+}

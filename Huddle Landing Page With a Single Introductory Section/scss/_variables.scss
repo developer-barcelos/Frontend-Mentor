@@ -1,0 +1,17 @@
+:root {
+	--clr-primary-violet: hsl(257, 40%, 49%);
+	--clr-primary-magenta: hsl(300, 69%, 71%);
+	--clr-neutral-white: hsl(0, 0%, 100%);
+}
+
+:root {
+	--ff-primary: 'Open Sans', sans-serif;
+	--ff-secondary: 'Poppins', sans-serif;
+
+	--fs-header: clamp(1.5rem, calc(1.15rem + 1.5vw), 2.5rem);
+	--fs-body: clamp(1rem, calc(0.96rem + 0.19vw), 1.13rem);
+	--fs-button: clamp(0.69rem, calc(0.45rem + 1.03vw), 1.38rem);
+
+	--fw-regular: 400;
+	--fw-semibold: 600;
+}
