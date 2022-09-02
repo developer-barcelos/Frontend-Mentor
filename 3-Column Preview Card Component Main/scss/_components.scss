@@ -7,6 +7,13 @@ button {
 	font-family: var(--ff-primary);
 	font-size: var(--fs-button);
 
+	&:hover {
+		cursor: pointer;
+		border: 1px solid var(--clr-neutral-white);
+		color: var(--clr-neutral-white) !important;
+		background-color: transparent;
+	}
+
 	@media (min-width: 58em) {
 		margin-top: 5.1875rem;
 	}
