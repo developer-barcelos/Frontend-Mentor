@@ -6,11 +6,13 @@
 	padding: 0;
 }
 
+body {
+	font-family: var(--ff-primary);
+	text-align: center;
+}
+
 img {
 	display: block;
 	max-width: 100%;
-}
-
-ul[class] {
-	list-style: none;
+	border-radius: 1rem;
 }
