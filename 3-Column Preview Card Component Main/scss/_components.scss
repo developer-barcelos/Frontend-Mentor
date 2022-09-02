@@ -1,0 +1,31 @@
+button {
+	height: 3rem;
+	width: 9.125rem;
+	margin-top: 1.5625rem;
+	border: none;
+	border-radius: 1.5rem;
+	font-family: var(--ff-primary);
+	font-size: var(--fs-button);
+
+	@media (min-width: 58em) {
+		margin-top: 5.1875rem;
+	}
+}
+
+div[class='box']:nth-of-type(1) {
+	button {
+		color: var(--clr-primary-orange);
+	}
+}
+
+div[class='box']:nth-of-type(2) {
+	button {
+		color: var(--clr-primary-light-cyan);
+	}
+}
+
+div[class='box']:nth-of-type(3) {
+	button {
+		color: var(--clr-primary-dark-cyan);
+	}
+}

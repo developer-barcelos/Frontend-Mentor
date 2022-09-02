@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+	font: inherit;
+}
+
+h1 {
+	margin-bottom: 1.5625rem;
+	color: var(--clr-neutral-white);
+	font-family: var(--ff-secondary);
+	font-size: var(--fs-header);
+}
+
+p {
+	color: var(--clr-neutral-grey);
+	font-family: var(--ff-primary);
+	font-size: var(--fs-body);
+	line-height: 165%;
+}

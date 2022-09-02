@@ -1,0 +1,13 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	display: block;
+	margin-bottom: 2.1875rem;
+	max-width: 100%;
+}
