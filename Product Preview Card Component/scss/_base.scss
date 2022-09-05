@@ -1,0 +1,18 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+img[class="icon"] {
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+}

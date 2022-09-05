@@ -1,0 +1,40 @@
+article {
+  display: flex;
+
+  width: min(100%, 37.5em);
+
+  background-color: var(--clr-neutral-white);
+  border-radius: 0.5rem;
+  overflow: hidden;
+
+  @media (max-width: 48em) {
+    flex-direction: column;
+  }
+}
+
+body {
+  display: grid;
+  place-items: center;
+
+  min-height: 100vh;
+  width: 100vw;
+  padding: 1.6875rem 1rem;
+
+  background-color: var(--clr-primary-cream);
+}
+
+section {
+  width: 50%;
+
+  @media (max-width: 48em) {
+    width: 100%;
+  }
+}
+
+section[class="information"] {
+  padding: 2rem;
+
+  @media (max-width: 48em) {
+    padding: 1.5rem;
+  }
+}
