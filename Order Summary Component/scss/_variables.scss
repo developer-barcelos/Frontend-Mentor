@@ -1,0 +1,21 @@
+:root {
+  --clr-blue-100: hsl(225, 100%, 98%);
+  --clr-blue-200: hsl(225, 100%, 94%);
+  --clr-blue-300: hsl(224, 23%, 55%);
+  --clr-blue-400: hsl(245, 75%, 52%);
+  --clr-blue-500: hsl(223, 47%, 23%);
+  --clr-white: hsl(0, 0%, 100%);
+}
+
+:root {
+  --ff-primary: "Red Hat Display", sans-serif;
+
+  --fs-200: clamp(0.81rem, calc(0.79rem + 0.09vw), 0.88rem);
+  --fs-300: clamp(0.88rem, calc(0.83rem + 0.19vw), 1rem);
+  --fs-400: clamp(0.94rem, calc(0.92rem + 0.09vw), 1rem);
+  --fs-500: clamp(1.38rem, calc(1.24rem + 0.56vw), 1.75rem);
+
+  --fw-medium: 500;
+  --fw-bold: 700;
+  --fw-black: 900;
+}

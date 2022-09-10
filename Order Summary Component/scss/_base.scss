@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-medium);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
