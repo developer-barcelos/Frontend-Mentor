@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: var(--clr-neutral-white);
+	font-weight: var(--fw-semibold);
+	text-decoration: none;
+
+	&:hover {
+		color: var(--clr-primary-cyan);
+	}
+}
+
+html {
+	font-family: var(--ff-primary);
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}

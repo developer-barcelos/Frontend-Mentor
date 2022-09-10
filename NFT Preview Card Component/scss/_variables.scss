@@ -1,0 +1,20 @@
+:root {
+	--clr-background-body: hsl(217, 54%, 11%);
+	--clr-background-card: hsl(216, 50%, 16%);
+	--clr-neutral-line: hsl(215, 32%, 27%);
+	--clr-neutral-white: hsl(0, 0%, 100%);
+	--clr-primary-blue: hsl(215, 51%, 70%);
+	--clr-primary-cyan: hsl(178, 100%, 50%);
+}
+
+:root {
+	--ff-primary: 'Outfit', sans-serif;
+
+	--fs-300: clamp(0.94rem, calc(0.92rem + 0.09vw), 1rem);
+	--fs-400: clamp(1rem, calc(0.96rem + 0.19vw), 1.13rem);
+	--fs-500: 1.375rem;
+
+	--fw-light: 300;
+	--fw-regular: 400;
+	--fw-semibold: 600;
+}
