@@ -1,65 +1,69 @@
 body {
-  display: grid;
-  place-items: center;
-  min-height: 100vh;
-  width: 100vw;
-  padding-inline: 1.5rem;
-  background-color: var(--clr-dark-blue);
+	display: grid;
+	place-items: center;
+	min-height: 100vh;
+	width: 100vw;
+	padding: 1.5rem;
+	background-color: var(--clr-dark-blue);
 }
 
-div[class="text"] {
-  margin-bottom: 4.375rem;
+div[class='text'] {
+	margin-bottom: 4.375rem;
 }
 
 main {
-  display: flex;
-  flex-direction: row-reverse;
-  max-width: 69.375rem;
+	display: flex;
+	flex-direction: row-reverse;
+	max-width: 69.375rem;
+	border-radius: 0.5rem;
+	overflow: hidden;
 
-  border-radius: 0.5rem;
-  overflow: hidden;
-
-  @media (max-width: 72em) {
-    flex-direction: column;
-  }
+	@media (max-width: 72em) {
+		flex-direction: column;
+		max-width: 30em;
+	}
 }
 
-section[class="content"] {
-  max-width: 35.625rem;
-  padding-block: 4.5rem 4rem;
-  padding-inline: 4.5rem 7rem;
-  background-color: var(--clr-light-blue);
+section[class='content'] {
+	display: flex;
+	flex-direction: column;
+	max-width: 35.625rem;
+	padding-block: 4.5rem 4rem;
+	padding-inline: 4.5rem 7rem;
+	background-color: var(--clr-light-blue);
 
-  @media (max-width: 72em) {
-    max-width: 33.75rem;
-    padding-inline: 1.75rem;
-  }
+	@media (max-width: 72em) {
+		align-items: center;
+		max-width: 100%;
+		padding-inline: 1.75rem;
+		text-align: center;
+	}
 }
 
-img {
-  object-fit: contain;
-}
+section[class='hero'] {
+	max-width: 33.75em;
+	position: relative;
 
-section[class="hero"] {
-  max-width: 33.75em;
-  position: relative;
+	&::after,
+	&::before {
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		background-color: var(--clr-accent-violet);
+	}
 
-  &::after,
-  &::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: var(--clr-accent-violet);
-  }
+	&::after {
+		opacity: 30%;
+	}
 
-  &::after {
-    opacity: 30%;
-  }
+	&::before {
+		mix-blend-mode: multiply;
+	}
 
-  &::before {
-    mix-blend-mode: multiply;
-  }
+	@media (max-width: 72em) {
+		max-width: 100%;
+	}
 }

@@ -1,6 +1,15 @@
 ul[class] {
-  display: flex;
-  justify-content: space-between;
-  max-width: 21.9375rem;
-  list-style: none;
+	display: flex;
+	justify-content: space-between;
+	max-width: 21.9375rem;
+	list-style: none;
+
+	& li:nth-child(3) h2 {
+		text-transform: uppercase;
+	}
+
+	@media (max-width: 72em) {
+		flex-direction: column;
+		min-height: 13.125rem;
+	}
 }
