@@ -1,0 +1,65 @@
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  padding-inline: 1.5rem;
+  background-color: var(--clr-dark-blue);
+}
+
+div[class="text"] {
+  margin-bottom: 4.375rem;
+}
+
+main {
+  display: flex;
+  flex-direction: row-reverse;
+  max-width: 69.375rem;
+
+  border-radius: 0.5rem;
+  overflow: hidden;
+
+  @media (max-width: 72em) {
+    flex-direction: column;
+  }
+}
+
+section[class="content"] {
+  max-width: 35.625rem;
+  padding-block: 4.5rem 4rem;
+  padding-inline: 4.5rem 7rem;
+  background-color: var(--clr-light-blue);
+
+  @media (max-width: 72em) {
+    max-width: 33.75rem;
+    padding-inline: 1.75rem;
+  }
+}
+
+img {
+  object-fit: contain;
+}
+
+section[class="hero"] {
+  max-width: 33.75em;
+  position: relative;
+
+  &::after,
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--clr-accent-violet);
+  }
+
+  &::after {
+    opacity: 30%;
+  }
+
+  &::before {
+    mix-blend-mode: multiply;
+  }
+}
