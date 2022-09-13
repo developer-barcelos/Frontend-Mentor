@@ -10,4 +10,4 @@ The challenge is to build out this profile card component and get it looking as 
 
 - Challenge Page: [Link](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ)
 
-- Challenge Solution: [Link](https://heartfelt-faun-6634cb.netlify.app/)
+- Challenge Solution: [Link](https://astonishing-malabi-72db27.netlify.app/)
