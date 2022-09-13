@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  font: inherit;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+  color: var(--clr-dark-blue);
+  font-size: var(--fs-400);
+  font-weight: var(--fw-bold);
+}
+
+h2 {
+  color: var(--clr-dark-grey);
+  font-size: var(--fs-300);
+  font-weight: var(--fw-regular);
+}
+
+h3 {
+  @extend h1;
+  margin-bottom: 0.25rem;
+}
+
+p {
+  color: var(--clr-dark-grey);
+  font-size: var(--fs-200);
+  font-weight: var(--fw-regular);
+  letter-spacing: 0.15em;
+}
+
+span {
+  color: var(--clr-dark-grey);
+  font-weight: var(--fw-regular);
+}

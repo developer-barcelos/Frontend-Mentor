@@ -1,0 +1,10 @@
+ul[class="stats"] {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+
+  li[class="stat"] {
+    width: 5.6875em;
+    text-align: center;
+  }
+}
