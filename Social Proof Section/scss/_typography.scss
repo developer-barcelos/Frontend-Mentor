@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+* {
+	font: inherit;
+}
+
+h1 {
+	color: var(--clr-primary-100);
+	font-size: var(--fs-600);
+	font-weight: var(--fw-bold);
+	letter-spacing: -0.035em;
+	line-height: 80%;
+}
+
+h2 {
+	color: var(--clr-neutral-300);
+	font-size: var(--fs-400);
+	font-weight: var(--fw-bold);
+	letter-spacing: 0.02em;
+}
+
+p[class='description'] {
+	color: var(--clr-neutral-100);
+	font-size: var(--fs-500);
+	font-weight: var(--fw-medium);
+	letter-spacing: -0.015em;
+	line-height: 140%;
+}
+
+p[class='quote'] {
+	color: var(--clr-neutral-300);
+	font-size: var(--fs-400);
+	font-weight: var(--fw-regular);
+	letter-spacing: 0.015em;
+	line-height: 140%;
+}
+
+span[class='verification'] {
+	color: var(--clr-primary-200);
+	font-size: var(--fs-400);
+	font-weight: var(--fw-medium);
+	letter-spacing: 0.015em;
+}

@@ -1,0 +1,19 @@
+blockquote {
+	padding: 2rem;
+	background-color: var(--clr-primary-100);
+	border-radius: 0.5rem;
+}
+
+div[class='profile'] {
+	display: grid;
+	grid-template-columns: 4rem 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+
+img[class='profile-picture'] {
+	grid-column: 1/2;
+	grid-row: 1/3;
+	height: 2.5rem;
+	width: 2.5rem;
+	border-radius: 50%;
+}
