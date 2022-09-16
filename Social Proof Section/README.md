@@ -14,4 +14,4 @@ Users should be able to:
 
 - Challenge Page: [Link](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA)
 
-- Challenge Solution: [Link](https://heartfelt-faun-6634cb.netlify.app/)
+- Challenge Solution: [Link](https://deft-puffpuff-159a94.netlify.app/)
