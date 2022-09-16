@@ -1,0 +1,22 @@
+:root {
+	--clr-neutral-dark-blue: hsl(234, 12%, 34%);
+	--clr-neutral-dark-grey: hsl(229, 6%, 66%);
+	--clr-neutral-light-grey: hsl(0, 0%, 98%);
+	--clr-primary-blue: hsl(212, 86%, 64%);
+	--clr-primary-cyan: hsl(180, 62%, 55%);
+	--clr-primary-orange: hsl(34, 97%, 64%);
+	--clr-primary-red: hsl(0, 78%, 62%);
+}
+
+:root {
+	--ff-primary: 'Poppins', sans-serif;
+
+	--fs-300: 0.8125rem;
+	--fs-400: 0.9375rem;
+	--fs-500: 1.25rem;
+	--fs-600: clamp(1.5rem, calc(1.24rem + 1.13vw), 2.25rem);
+
+	--fw-extralight: 200;
+	--fw-regular: 400;
+	--fw-semibold: 600;
+}
