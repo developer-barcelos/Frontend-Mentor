@@ -1,25 +1,19 @@
 :root {
-	--clr-neutral-100: hsl(303, 10%, 53%);
-	--clr-neutral-200: hsl(300, 24%, 96%);
-	--clr-neutral-300: hsl(0, 0%, 100%);
-	--clr-primary-100: hsl(300, 43%, 22%);
-	--clr-primary-200: hsl(333, 80%, 67%);
+  --clr-neutral-100: hsl(303, 10%, 53%);
+  --clr-neutral-200: hsl(300, 24%, 96%);
+  --clr-neutral-300: hsl(0, 0%, 100%);
+  --clr-primary-100: hsl(300, 43%, 22%);
+  --clr-primary-200: hsl(333, 80%, 67%);
 }
 
 :root {
-	--ff-primary: 'League Spartan', sans-serif;
+  --ff-primary: "League Spartan", sans-serif;
 
-	--fs-400: 1rem;
-	--fs-500: 1.125rem;
-	--fs-600: 3.5rem;
+  --fs-400: 1rem;
+  --fs-500: 1.125rem;
+  --fs-600: clamp(2.5rem, calc(2.15rem + 1.5vw), 3.5rem);
 
-	--fw-regular: 400;
-	--fw-medium: 500;
-	--fw-bold: 700;
-
-	@media (min-width: 60em) {
-		--fs-400: 1rem;
-		--fs-500: 1.125rem;
-		--fs-600: 3.5rem;
-	}
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
 }
