@@ -1,0 +1,22 @@
+:root {
+  --clr-light-red: hsl(0, 36%, 70%);
+  --clr-bright-red: hsl(0, 93%, 68%);
+  --clr-dark-grey: hsl(0, 6%, 24%);
+}
+
+:root {
+  --gradient-body: linear-gradient(132.89deg, hsl(0, 0%, 100%) 28.14%, hsl(0, 100%, 98%) 78.15%);
+  --gradient-button: linear-gradient(119.36deg, hsl(0, 80%, 86%) 0%, hsl(0, 74%, 74%) 100%);
+}
+
+:root {
+  --ff-primary: "Josefin Sans", sans-serif;
+
+  --fs-300: 0.8125rem;
+  --fs-400: 0.875rem;
+  --fs-500: 2.5rem;
+
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-semibold: 600;
+}

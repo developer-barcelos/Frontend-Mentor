@@ -1,0 +1,52 @@
+button[type="submit"] {
+  display: grid;
+  place-items: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  width: 4rem;
+  border: none;
+  border-radius: 2rem;
+  background: var(--gradient-button);
+  box-shadow: 0 16px 16px rgba(206, 151, 151, 0.25);
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+}
+
+form {
+  position: relative;
+}
+
+img[class="hero"] {
+  width: 100%;
+}
+
+img[class="logo"] {
+  width: clamp(6.25rem, calc(4.97rem + 5.45vw), 9.88rem);
+}
+
+input[class="email"] {
+  width: 100%;
+  padding: 1.125rem 1.5rem;
+  background: transparent;
+  border: 1px solid hsla(0, 36%, 70%, 50%);
+  border-radius: 2rem;
+  color: var(--clr-dark-grey);
+  font-size: var(--fs-300);
+  font-weight: var(--fw-regular);
+  letter-spacing: 0.035em;
+  overflow: hidden;
+
+  &::placeholder {
+    color: hsla(0, 36%, 70%, 100%);
+  }
+
+  &:focus {
+    border: none;
+    outline: 2px solid var(--clr-light-red);
+  }
+}

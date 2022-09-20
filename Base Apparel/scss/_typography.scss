@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
+
+* {
+  font: inherit;
+}
+
+h1 {
+  color: var(--clr-dark-grey);
+  font-size: var(--fs-500);
+  font-weight: var(--fw-semibold);
+  letter-spacing: 0.27em;
+  line-height: 105%;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  color: var(--clr-light-red);
+  font-size: var(--fs-400);
+  line-height: 160%;
+  text-align: center;
+}
+
+span {
+  color: var(--clr-light-red);
+  font-weight: var(--fw-light);
+}
